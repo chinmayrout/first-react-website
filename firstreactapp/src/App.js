@@ -5,8 +5,11 @@ import './App.css';
 
 function App(){
   return (
-    <div>
-    <h1>Chinmay</h1>
+    <div className ="App">  {/*use className not class */}
+      <header className = "App-header">
+        <img src={logo} className='App-logo' />
+        <p> Chinmay's first React App</p>
+        </header>
     </div>
   );
 }
